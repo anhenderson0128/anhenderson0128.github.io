@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Screen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="w3-4.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            background: black;
+            margin: 0;
+            display: flex;
+            padding: 10px;
+        }
+
+        .nav-div {
+            margin: auto;
+            padding: 10px;
+        }
+        .nav-bar {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            padding: 20px;
+        }
+
+        .main-header {
+            padding-top: 200px;
+            height: 550px;
+            background: url("imgs/dock.JPG") no-repeat center;
+            background-size: cover;
+            border: 5px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px darkgrey;
+        }
+
+        #main-header-title {
+            text-align: center;
+            color: #f7f8f9;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+            margin: auto;
+        }
+
+        .main-header-intro {
+            width: 50%;
+            margin: auto;
+            padding: 35px;
+            color: white;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .contact {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            background-color: tan;
+            border: 5px solid black; 
+            border-radius: 5px;
+            box-shadow: 3px -3px darkgrey;
+        }
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+            border-style: solid; 
+            display: block;
+            border-color: black;
+            border-radius: 5px;
+            margin: 15px;
+            box-shadow: 3px 3px 3px darkgrey;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .footer {
+            height: 40px;
+            background: black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-header">
+        <div class="nav-div">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-link w3-hide-small w3-hide-medium" style="font-size: 24px" href="index.html">Home</a></li>
+                <li><a class="nav-bar-link w3-hide-small w3-hide-medium" style="font-size: 24px" href="aboutme.html">About Alyssa</a></li>
+                <li><a class="nav-bar-link w3-hide-small w3-hide-medium" style="font-size: 24px" href="projects.html">Projects and Examples</a></li>
+
+                <li><a class="nav-bar-link w3-hide-large w3-hide-small" style="font-size: 12px" href="index.html">Home</a></li>
+                <li><a class="nav-bar-link w3-hide-large w3-hide-small" style="font-size: 12px" href="aboutme.html">About Alyssa</a></li>
+                <li><a class="nav-bar-link w3-hide-large w3-hide-small" style="font-size: 12px" href="projects.html">Projects and Examples</a></li>
+
+                <li><a class="nav-bar-link w3-hide-large w3-hide-medium" style="font-size: 8px" href="index.html">Home</a></li>
+                <li><a class="nav-bar-link w3-hide-large w3-hide-medium" style="font-size: 8px" href="aboutme.html">About Alyssa</a></li>
+                <li><a class="nav-bar-link w3-hide-large w3-hide-medium" style="font-size: 8px" href="projects.html">Projects and Examples</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 id="main-header-title" class="w3-hide-small w3-hide-medium" style="font-size: 64px">Alyssa Henderson</h1>
+        <h1 id="main-header-title" class="w3-hide-large w3-hide-small" style="font-size: 30px">Alyssa Henderson</h1>
+        <h1 id="main-header-title" class="w3-hide-large w3-hide-medium" style="font-size: 15px">Alyssa Henderson</h1>
+        <div class="main-header-intro w3-hide-small w3-hide-medium" style="font-size: 50px">
+               Photographer and Videographer
+        </div>
+        <div class="main-header-intro w3-hide-large w3-hide-small" style="font-size: 30px">
+               Photographer and Videographer
+        </div>
+
+        <div class="main-header-intro w3-hide-large w3-hide-medium" style="font-size: 15px">
+               Photographer and Videographer
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <a href="aboutme.html">
+            <img src="imgs/aboutme.JPG" alt="aboutme">
+            </a>
+            <h3 class="w3-hide-small w3-hide-medium" style="font-size: 30px">About Alyssa</h3>
+            <h3 class="w3-hide-large w3-hide-small" style="font-size: 15px">About Alyssa</h3>
+            <h3 class="w3-hide-large w3-hide-medium" style="font-size: 7px">About Alyssa</h3>
+        </div>
+        <div class="card">
+            <a href="projects.html">
+            <img src="imgs/projects.JPG" alt="projects">
+            </a>
+            <h3 class="w3-hide-small w3-hide-medium" style="font-size: 30px">Projects and Examples</h3>
+            <h3 class="w3-hide-large w3-hide-small" style="font-size: 15px">Projects and Examples</h3>
+            <h3 class="w3-hide-large w3-hide-medium" style="font-size: 7px">Projects and Examples</h3>
+        </div>
+    </div>
+
+    <div class="contact w3-hide-small w3-hide-medium" style="font-size: 30px">
+        <h2 class="w3-hide-small w3-hide-medium" style="font-size: 30px">Contact Alyssa:</h2>
+        <p id="special">
+          <i class="fab fa-youtube"></i> Youtube Link: <a href="https://www.youtube.com/channel/UC7OwXB5XiMKvXsQ5VWxbDLw"> youtube.com/alyssahenderson </a><br>
+          <i class="fas fa-envelope-open"></i> E-mail: anhenderson128@gmail.com <br> 
+          <i class="fab fa-facebook"></i> Facebook Page: <a href="https://www.facebook.com/ahphotographyvideography/?view_public_for=2125036337759471"> ANH Photography and Videography</a> <br>
+        </p>
+    </div>
+    <div class="contact w3-hide-large w3-hide-small" style="font-size: 15px">
+        <h2 class="w3-hide-large w3-hide-small" style="font-size: 15px">Contact Alyssa:</h2>
+        <p id="special">
+          <i class="fab fa-youtube"></i> Youtube Link: <a href="https://www.youtube.com/channel/UC7OwXB5XiMKvXsQ5VWxbDLw"> youtube.com/alyssahenderson </a><br>
+          <i class="fas fa-envelope-open"></i> E-mail: anhenderson128@gmail.com <br> 
+          <i class="fab fa-facebook"></i> Facebook Page: <a href="https://www.facebook.com/ahphotographyvideography/?view_public_for=2125036337759471"> ANH Photography and Videography</a> <br>
+        </p>
+    </div>
+    <div class="contact w3-hide-large w3-hide-medium" style="font-size: 10px">
+        <h2 class="w3-hide-large w3-hide-medium" style="font-size: 10px">Contact Alyssa:</h2>
+        <p id="special">
+          <i class="fab fa-youtube"></i> Youtube Link: <a href="https://www.youtube.com/channel/UC7OwXB5XiMKvXsQ5VWxbDLw"> youtube.com/alyssahenderson </a><br>
+          <i class="fas fa-envelope-open"></i> E-mail: anhenderson128@gmail.com <br> 
+          <i class="fab fa-facebook"></i> Facebook Page: <a href="https://www.facebook.com/ahphotographyvideography/?view_public_for=2125036337759471"> ANH Photography and Videography</a> <br>
+        </p>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+
+</html>
